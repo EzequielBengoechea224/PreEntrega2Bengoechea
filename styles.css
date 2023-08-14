@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header div#contenedor{
+    display: grid;
+    grid-template-areas: 
+    "img titulo nav";
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr;
+    background-color: black;
+    color:white
+}
+
+header img{
+    grid-area: img;
+    justify-self: start;
+    align-self: center;
+}
+
+.img-header{
+    padding-left: 15px;
+    width: 60px;
+}
+
+header h1{
+    grid-area: titulo;
+    text-align: center;
+    align-self: center;
+}
+
+header nav{
+    padding-top: 10px;
+    text-align: center;
+}
+
+header ul{
+    list-style: none;
+}
+
+main section#main__entrada div{
+    display: flex;
+    border: 1px black solid;
+    justify-self: center;
+}
+
+
+
+.caja{
+    border: red 1px solid;
+}
+
