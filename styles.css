@@ -94,3 +94,34 @@ footer p{
 footer p#volver{
     grid-area: volver;
 }
+
+
+/*comienzo de css para la pag Catalogo*/
+
+div#carouselExampleControls img{
+    height: 16rem;
+}
+
+/*Utilice todos estos media query porque las imagenes tenian un height distinto default,
+y para que se vea mas prolijo decidi darles un height en REMs identico en todas
+las imagenes del carrusel, al hacerlo tenia problemas con el width, por lo cual
+decidi utilizar media query para solucionarlo.*/
+
+@media ((min-width: 576px) and (max-width:992px)){
+    div#carouselExampleControls img{
+        height: 28rem;
+    }
+}
+
+@media ((min-width: 922px) and (max-width:1200px)){
+    div#carouselExampleControls img{
+        height: 35rem;
+    }
+}
+
+@media (min-width: 1200px){
+    div#carouselExampleControls img{
+        height: 40rem;
+    }
+}
+
