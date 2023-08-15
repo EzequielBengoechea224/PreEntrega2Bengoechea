@@ -125,3 +125,7 @@ decidi utilizar media query para solucionarlo.*/
     }
 }
 
+div#muestra__catalogo img.img-card{
+    height: 30px;
+}
+
