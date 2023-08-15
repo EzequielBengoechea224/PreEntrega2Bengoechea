@@ -51,3 +51,42 @@ main section#main__entrada div{
     border: red 1px solid;
 }
 
+main li{
+    padding-bottom: 20px;
+}
+
+@media (max-width:560px){
+    main li{
+        padding-bottom: 0px;
+    }
+}
+
+.col-separador{
+    background-color: rgb(75, 75, 75);
+}
+.h-separador{
+    height: 10px;
+}
+
+footer{
+    background-color: black;
+    display: grid;
+    grid-template-areas: 
+    "img par volver";
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    justify-items: center;
+}
+
+footer img{
+    grid-area: img;
+}
+footer p{
+    grid-area: par;
+}
+
+footer p#volver{
+    grid-area: volver;
+}
