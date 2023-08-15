@@ -61,12 +61,6 @@ main li{
     }
 }
 
-.col-separador{
-    background-color: rgb(75, 75, 75);
-}
-.h-separador{
-    height: 10px;
-}
 
 footer{
     background-color: black;
@@ -85,6 +79,16 @@ footer img{
 }
 footer p{
     grid-area: par;
+}
+
+.col-separador{
+    background-color: black;
+    color: white;
+}
+
+.w-h-100{
+    width: 100%;
+    height: 100%;
 }
 
 footer p#volver{
