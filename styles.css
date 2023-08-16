@@ -129,3 +129,8 @@ div#muestra__catalogo img.img-card{
     height: 30px;
 }
 
+
+a.no-deco{
+    text-decoration: none;
+    color: white;
+}
