@@ -69,7 +69,6 @@ footer{
     "img par volver";
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
-    align-self: center;
     align-items: center;
     justify-items: center;
 }
@@ -133,4 +132,12 @@ div#muestra__catalogo img.img-card{
 a.no-deco{
     text-decoration: none;
     color: white;
+}
+a.no-deco-2{
+    text-decoration: none;
+    color: black;
+}
+a.no-deco-2 small{
+    text-decoration: none;
+    color: gray;
 }
